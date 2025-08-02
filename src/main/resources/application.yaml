@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: GraphHopperDirections
+
+graphhopper:
+  api:
+    key: ${GRAPHOPPER_API_KEY}
+
+server:
+  port: 8081
